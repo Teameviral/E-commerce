@@ -7,13 +7,13 @@
 </p>
 
 <p align="center"> 
-    <img alt="All Stars" src="https://visitor-badge.laobi.icu/badge?page_id=detronetdip.E-commerce"/>&nbsp;
-    <img src="https://img.shields.io/github/stars/detronetdip/E-commerce" />
+    <img alt="All Stars" src="https://visitor-badge.laobi.icu/badge?page_id=Teameviral.E-commerce"/>&nbsp;
+    <img src="https://img.shields.io/github/stars/Teameviral/E-commerce" />
     &nbsp;
-    <img src="https://img.shields.io/github/forks/detronetdip/E-commerce" />&nbsp;
-    <img src="https://img.shields.io/github/repo-size/detronetdip/E-commerce"/>
+    <img src="https://img.shields.io/github/forks/Teameviral/E-commerce" />&nbsp;
+    <img src="https://img.shields.io/github/repo-size/Teameviral/E-commerce"/>
     &nbsp;
-    <img src="https://img.shields.io/github/last-commit/detronetdip/E-commerce"/>
+    <img src="https://img.shields.io/github/last-commit/Teameviral/E-commerce"/>
 </p>
 
 <p>
@@ -31,4 +31,4 @@
     <img src="https://img.shields.io/badge/Docker-2CA5E0?logo=docker&logoColor=white" alt="docker"/>
 </p>
 
-### This branch contains only the frontend part of this project. To view full project please switch to the [main](https://github.com/detronetdip/E-commerce/tree/main) branch.
+### This branch contains only the frontend part of this project. To view full project please switch to the [main](https://github.com/Teameviral/E-commerce/tree/main) branch.

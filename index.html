@@ -9,22 +9,82 @@
     <link rel="stylesheet" href="style/style.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/inter@4.0.0-alpha.2/css/inter.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.2/css/all.min.css" />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Inter', sans-serif;
+      }
+
+      nav {
+        background: #fff;
+        box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+      }
+
+      .logo {
+        font-size: 24px;
+        font-weight: 700;
+        color: #222;
+      }
+
+      .navbar-links {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .navbar-links li {
+        padding: 0 10px;
+      }
+
+      .navbar-links a {
+        color: #222;
+        text-decoration: none;
+        font-weight: 600;
+      }
+
+      .navbar-links a:hover {
+        color: #777;
+      }
+
+      .btn-github {
+        background: #24292e;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        font-weight: 600;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      .btn-github:hover {
+        background: #1c2023;
+      }
+    </style>
   </head>
   <body>
+    <nav>
+      <div class="logo">E-COMMERCE SITE</div>
+      <ul class="navbar-links">
+        <li><a href="Admin/">ADMIN PANEL</a></li>
+        <li><a href="seller/">SELLER PANEL</a></li>
+        <li><a href="deliveryBoy/">DELIVERY BOY PANEL</a></li>
+        <li><a href="user/">MAIN WEBSITE</a></li>
+      </ul>
+      <a href="https://github.com/Teameviral/E-commerce" class="btn-github"><i class="fab fa-github"></i> GitHub</a>
+    </nav>
     <div class="container">
       <div class="overlay">
-        <div class="menu-toggle">
-          <input type="checkbox" />
-          <span></span>
-          <span></span>
-          <span></span>
-          <ul class="menu">
-            <li><a href="Admin/">ADMIN PANEL</a></li>
-            <li><a href="seller/">SELLER PANEL</a></li>
-            <li><a href="deliveryBoy/">DELIVERY BOY PANEL</a></li>
-            <li><a href="user/">MAIN WEBSITE</a></li>
-          </ul>
-        </div>
         <div class="row">
           <span class="highlight">No functionalities ahead.</span>
         </div>
@@ -36,6 +96,7 @@
             working.
           </p>
         </div>
+
         <div class="changelog">
           <div class="logcontainer">
             <h5>Click the below links to view each section.</h5>
@@ -55,4 +116,5 @@
     <script src="js/main.js"></script>
   </body>
 </html>
+
 
